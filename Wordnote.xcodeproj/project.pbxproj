@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		575920CB20E18FD600E3E102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575920CA20E18FD600E3E102 /* AppDelegate.swift */; };
+		575920CD20E18FD600E3E102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575920CC20E18FD600E3E102 /* ViewController.swift */; };
+		575920D020E18FD600E3E102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575920CE20E18FD600E3E102 /* Main.storyboard */; };
+		575920D220E18FDA00E3E102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575920D120E18FDA00E3E102 /* Assets.xcassets */; };
+		575920D520E18FDA00E3E102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575920D320E18FDA00E3E102 /* LaunchScreen.storyboard */; };
+		575920E020E18FDA00E3E102 /* WordnoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575920DF20E18FDA00E3E102 /* WordnoteTests.swift */; };
+		575920EB20E18FDA00E3E102 /* WordnoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575920EA20E18FDA00E3E102 /* WordnoteUITests.swift */; };
+		575920F920E1906A00E3E102 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 575920F820E1906A00E3E102 /* GoogleService-Info.plist */; };
+		575920FD20E1A23B00E3E102 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575920FC20E1A23B00E3E102 /* ViewControllerTableViewCell.swift */; };
+		801D9DD5EA15DAAA8DA14574 /* Pods_WordnoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC9D96FF9A3A74D8E3AB00F /* Pods_WordnoteUITests.framework */; };
+		C4D5BCB1C710F18E0108D269 /* Pods_WordnoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0DF963C1002B9C929BFE2E /* Pods_WordnoteTests.framework */; };
+		D155AA40DD05D29A0DF5A1EE /* Pods_Wordnote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C461E3CE0C8C3FC3BD2A31B /* Pods_Wordnote.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		575920DC20E18FDA00E3E102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 575920BF20E18FD600E3E102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 575920C620E18FD600E3E102;
+			remoteInfo = Wordnote;
+		};
+		575920E720E18FDA00E3E102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 575920BF20E18FD600E3E102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 575920C620E18FD600E3E102;
+			remoteInfo = Wordnote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02EE93206BC2A394069EB4D0 /* Pods-Wordnote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordnote.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wordnote/Pods-Wordnote.release.xcconfig"; sourceTree = "<group>"; };
+		0C052733B8B4A6C783F82E08 /* Pods-WordnoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordnoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WordnoteTests/Pods-WordnoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		156BAFBA64E7A160AA7189C4 /* Pods-WordnoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordnoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WordnoteTests/Pods-WordnoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		1AC9D96FF9A3A74D8E3AB00F /* Pods_WordnoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordnoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C461E3CE0C8C3FC3BD2A31B /* Pods_Wordnote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wordnote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B0CA727325CD2C278CA0A5 /* Pods-WordnoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordnoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WordnoteUITests/Pods-WordnoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		575920C720E18FD600E3E102 /* Wordnote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordnote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		575920CA20E18FD600E3E102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		575920CC20E18FD600E3E102 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		575920CF20E18FD600E3E102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		575920D120E18FDA00E3E102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		575920D420E18FDA00E3E102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		575920D620E18FDA00E3E102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575920DB20E18FDA00E3E102 /* WordnoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordnoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		575920DF20E18FDA00E3E102 /* WordnoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordnoteTests.swift; sourceTree = "<group>"; };
+		575920E120E18FDA00E3E102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575920E620E18FDA00E3E102 /* WordnoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordnoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		575920EA20E18FDA00E3E102 /* WordnoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordnoteUITests.swift; sourceTree = "<group>"; };
+		575920EC20E18FDA00E3E102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575920F820E1906A00E3E102 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		575920FC20E1A23B00E3E102 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewControllerTableViewCell.swift; path = /Users/aluno/Desktop/Wordnote/Wordnote/ViewControllerTableViewCell.swift; sourceTree = "<absolute>"; };
+		8CAE08B1C03DB01C3514BD94 /* Pods-WordnoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordnoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WordnoteUITests/Pods-WordnoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A0DF963C1002B9C929BFE2E /* Pods_WordnoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordnoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B097FAD8ECC8DEF85B80178B /* Pods-Wordnote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordnote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wordnote/Pods-Wordnote.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		575920C420E18FD600E3E102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D155AA40DD05D29A0DF5A1EE /* Pods_Wordnote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575920D820E18FDA00E3E102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D5BCB1C710F18E0108D269 /* Pods_WordnoteTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575920E320E18FDA00E3E102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801D9DD5EA15DAAA8DA14574 /* Pods_WordnoteUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		575920BE20E18FD600E3E102 = {
+			isa = PBXGroup;
+			children = (
+				575920C920E18FD600E3E102 /* Wordnote */,
+				575920DE20E18FDA00E3E102 /* WordnoteTests */,
+				575920E920E18FDA00E3E102 /* WordnoteUITests */,
+				575920C820E18FD600E3E102 /* Products */,
+				7D9AB749F6E43CBB49619730 /* Pods */,
+				DAAE4647C2D94600306604C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		575920C820E18FD600E3E102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				575920C720E18FD600E3E102 /* Wordnote.app */,
+				575920DB20E18FDA00E3E102 /* WordnoteTests.xctest */,
+				575920E620E18FDA00E3E102 /* WordnoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		575920C920E18FD600E3E102 /* Wordnote */ = {
+			isa = PBXGroup;
+			children = (
+				575920F820E1906A00E3E102 /* GoogleService-Info.plist */,
+				575920CA20E18FD600E3E102 /* AppDelegate.swift */,
+				575920CC20E18FD600E3E102 /* ViewController.swift */,
+				575920CE20E18FD600E3E102 /* Main.storyboard */,
+				575920FC20E1A23B00E3E102 /* ViewControllerTableViewCell.swift */,
+				575920D320E18FDA00E3E102 /* LaunchScreen.storyboard */,
+				575920D120E18FDA00E3E102 /* Assets.xcassets */,
+				575920D620E18FDA00E3E102 /* Info.plist */,
+			);
+			path = Wordnote;
+			sourceTree = "<group>";
+		};
+		575920DE20E18FDA00E3E102 /* WordnoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				575920DF20E18FDA00E3E102 /* WordnoteTests.swift */,
+				575920E120E18FDA00E3E102 /* Info.plist */,
+			);
+			path = WordnoteTests;
+			sourceTree = "<group>";
+		};
+		575920E920E18FDA00E3E102 /* WordnoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				575920EA20E18FDA00E3E102 /* WordnoteUITests.swift */,
+				575920EC20E18FDA00E3E102 /* Info.plist */,
+			);
+			path = WordnoteUITests;
+			sourceTree = "<group>";
+		};
+		7D9AB749F6E43CBB49619730 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B097FAD8ECC8DEF85B80178B /* Pods-Wordnote.debug.xcconfig */,
+				02EE93206BC2A394069EB4D0 /* Pods-Wordnote.release.xcconfig */,
+				0C052733B8B4A6C783F82E08 /* Pods-WordnoteTests.debug.xcconfig */,
+				156BAFBA64E7A160AA7189C4 /* Pods-WordnoteTests.release.xcconfig */,
+				37B0CA727325CD2C278CA0A5 /* Pods-WordnoteUITests.debug.xcconfig */,
+				8CAE08B1C03DB01C3514BD94 /* Pods-WordnoteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAAE4647C2D94600306604C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C461E3CE0C8C3FC3BD2A31B /* Pods_Wordnote.framework */,
+				9A0DF963C1002B9C929BFE2E /* Pods_WordnoteTests.framework */,
+				1AC9D96FF9A3A74D8E3AB00F /* Pods_WordnoteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		575920C620E18FD600E3E102 /* Wordnote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575920EF20E18FDA00E3E102 /* Build configuration list for PBXNativeTarget "Wordnote" */;
+			buildPhases = (
+				1E53A83E52493740687C90D3 /* [CP] Check Pods Manifest.lock */,
+				575920C320E18FD600E3E102 /* Sources */,
+				575920C420E18FD600E3E102 /* Frameworks */,
+				575920C520E18FD600E3E102 /* Resources */,
+				A80AF1BDAC654269F3624EF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wordnote;
+			productName = Wordnote;
+			productReference = 575920C720E18FD600E3E102 /* Wordnote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		575920DA20E18FDA00E3E102 /* WordnoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575920F220E18FDA00E3E102 /* Build configuration list for PBXNativeTarget "WordnoteTests" */;
+			buildPhases = (
+				4BA7E5CEE7EAFCB20CAAD4BB /* [CP] Check Pods Manifest.lock */,
+				575920D720E18FDA00E3E102 /* Sources */,
+				575920D820E18FDA00E3E102 /* Frameworks */,
+				575920D920E18FDA00E3E102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				575920DD20E18FDA00E3E102 /* PBXTargetDependency */,
+			);
+			name = WordnoteTests;
+			productName = WordnoteTests;
+			productReference = 575920DB20E18FDA00E3E102 /* WordnoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		575920E520E18FDA00E3E102 /* WordnoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575920F520E18FDA00E3E102 /* Build configuration list for PBXNativeTarget "WordnoteUITests" */;
+			buildPhases = (
+				D2547CAE3046CC6E8A977BCB /* [CP] Check Pods Manifest.lock */,
+				575920E220E18FDA00E3E102 /* Sources */,
+				575920E320E18FDA00E3E102 /* Frameworks */,
+				575920E420E18FDA00E3E102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				575920E820E18FDA00E3E102 /* PBXTargetDependency */,
+			);
+			name = WordnoteUITests;
+			productName = WordnoteUITests;
+			productReference = 575920E620E18FDA00E3E102 /* WordnoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		575920BF20E18FD600E3E102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = aluno;
+				TargetAttributes = {
+					575920C620E18FD600E3E102 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					575920DA20E18FDA00E3E102 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 575920C620E18FD600E3E102;
+					};
+					575920E520E18FDA00E3E102 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 575920C620E18FD600E3E102;
+					};
+				};
+			};
+			buildConfigurationList = 575920C220E18FD600E3E102 /* Build configuration list for PBXProject "Wordnote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 575920BE20E18FD600E3E102;
+			productRefGroup = 575920C820E18FD600E3E102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				575920C620E18FD600E3E102 /* Wordnote */,
+				575920DA20E18FDA00E3E102 /* WordnoteTests */,
+				575920E520E18FDA00E3E102 /* WordnoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		575920C520E18FD600E3E102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575920D520E18FDA00E3E102 /* LaunchScreen.storyboard in Resources */,
+				575920F920E1906A00E3E102 /* GoogleService-Info.plist in Resources */,
+				575920D220E18FDA00E3E102 /* Assets.xcassets in Resources */,
+				575920D020E18FD600E3E102 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575920D920E18FDA00E3E102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575920E420E18FDA00E3E102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E53A83E52493740687C90D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wordnote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BA7E5CEE7EAFCB20CAAD4BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WordnoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A80AF1BDAC654269F3624EF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wordnote/Pods-Wordnote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wordnote/Pods-Wordnote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2547CAE3046CC6E8A977BCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WordnoteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		575920C320E18FD600E3E102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575920CD20E18FD600E3E102 /* ViewController.swift in Sources */,
+				575920CB20E18FD600E3E102 /* AppDelegate.swift in Sources */,
+				575920FD20E1A23B00E3E102 /* ViewControllerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575920D720E18FDA00E3E102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575920E020E18FDA00E3E102 /* WordnoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575920E220E18FDA00E3E102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575920EB20E18FDA00E3E102 /* WordnoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		575920DD20E18FDA00E3E102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 575920C620E18FD600E3E102 /* Wordnote */;
+			targetProxy = 575920DC20E18FDA00E3E102 /* PBXContainerItemProxy */;
+		};
+		575920E820E18FDA00E3E102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 575920C620E18FD600E3E102 /* Wordnote */;
+			targetProxy = 575920E720E18FDA00E3E102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		575920CE20E18FD600E3E102 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575920CF20E18FD600E3E102 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		575920D320E18FDA00E3E102 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575920D420E18FDA00E3E102 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		575920ED20E18FDA00E3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		575920EE20E18FDA00E3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		575920F020E18FDA00E3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B097FAD8ECC8DEF85B80178B /* Pods-Wordnote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wordnote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smd.Wordnote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		575920F120E18FDA00E3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EE93206BC2A394069EB4D0 /* Pods-Wordnote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wordnote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smd.Wordnote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		575920F320E18FDA00E3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C052733B8B4A6C783F82E08 /* Pods-WordnoteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WordnoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smd.WordnoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wordnote.app/Wordnote";
+			};
+			name = Debug;
+		};
+		575920F420E18FDA00E3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156BAFBA64E7A160AA7189C4 /* Pods-WordnoteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WordnoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smd.WordnoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wordnote.app/Wordnote";
+			};
+			name = Release;
+		};
+		575920F620E18FDA00E3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B0CA727325CD2C278CA0A5 /* Pods-WordnoteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WordnoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smd.WordnoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wordnote;
+			};
+			name = Debug;
+		};
+		575920F720E18FDA00E3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAE08B1C03DB01C3514BD94 /* Pods-WordnoteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WordnoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = smd.WordnoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wordnote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		575920C220E18FD600E3E102 /* Build configuration list for PBXProject "Wordnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575920ED20E18FDA00E3E102 /* Debug */,
+				575920EE20E18FDA00E3E102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575920EF20E18FDA00E3E102 /* Build configuration list for PBXNativeTarget "Wordnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575920F020E18FDA00E3E102 /* Debug */,
+				575920F120E18FDA00E3E102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575920F220E18FDA00E3E102 /* Build configuration list for PBXNativeTarget "WordnoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575920F320E18FDA00E3E102 /* Debug */,
+				575920F420E18FDA00E3E102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575920F520E18FDA00E3E102 /* Build configuration list for PBXNativeTarget "WordnoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575920F620E18FDA00E3E102 /* Debug */,
+				575920F720E18FDA00E3E102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 575920BF20E18FD600E3E102 /* Project object */;
+}
